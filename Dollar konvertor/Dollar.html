@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="display-5 mb-4 text-center">Dollar Konverteri</h1>
+        <form action="#" method="get" class="js-form">
+            <div class="row">
+                <div class="col m-3">
+                    <input type="number" placeholder="Summa" class="form-control summa-input" name="money"
+                        aria-label="Summa" required>
+                </div>
+                <div class="col m-3">
+                    <select name="currensy" aria-label="Valyuta" class="form-control js-valyuta-select">
+                        <option value="12000">Dollar</option>
+                        <option value="13000">Yevro</option>
+                        <option value="1200">Rubl</option>
+                        <option value="32000">JonUikni tillasi</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <output class="form-control m-3"><span class="dollar-natija"></span>so'm</output>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary w-100 mt-3 d-block" type="submit">Hisoblash</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="Dollar.js"></script>
+</body>
+
+</html>
